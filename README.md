@@ -1,2 +1,2 @@
 # jtwilloughby.github.io
-Chip's Website
+Hamster Website

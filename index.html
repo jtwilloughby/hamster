@@ -1,12 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<title>Chip's Website</title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<h1>Hello, World!</h1>
-<p>This is a paragraph.</p>
-<script>alert('YOLO');</script>
-</body>
+		<title>🐹🥷 - Chip the Hamster's Long Run - hamster.ninja</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+
+		<style>
+		.container {
+		  display: flex;
+		}
+		.col {
+		  flex: 1;
+		}
+		.col p {
+	      font-size: 0.7em;
+		  text-align: left;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>					
+					<h4>Chip the Hamster's Long Run</h4>
+					<video data-autoplay data-video-loop="loop" src="./assets/chip-silent-runner.mov"></video>
+				</section>
+				<section>
+					<div class="container">
+						<div class="col">
+							<video data-autoplay data-video-loop="loop" src="./assets/petco.mov"></video>
+						</div>
+						<div class="col">
+<p>We always liked our NYC neighborhood, but we wished for a Citibike dock, a Chipotle, and for a Whole Foods to open.  We also hoped OTB ("Off Track Betting") might move on.  Improbably over the years these wishes all came true.</p>
+<p>OTB was replaced by a huge Petco, which inevitably created new unexpected issues.  "Dad, I want to adopt a cat" (Mom is allergic). </p>
+<p>"Dad, I know we just went yesterday, but can we go back to Petco again?"</p>
+<p>"Dad, I really <em>really</em> want a hamster."</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="col">
+							<img src="./assets/white-wolf.jpeg">
+						</div>
+						<div class="col">
+<p>While consulting the Internet we discovered <a href="https://whitewolfrattery.com">White Wolf Critters</a> in Corum, NY.  <a href="mailto:info@whitewolfrattery.com">Laurinda</a> is a wealth of knowledge and very serious about what she does.</p>
+<p>It was an involved process to get on the wait list, write and approve a plan, wait for the hamster to have a litter, drive to pick up the hamster, etc.  For the kids it proved commitment, required patience, and heightened anticipation.</p>
+<p>Mom was most enthused that if the hamster was a bad fit, or the kids got in real trouble, Laurinda was willing to take the hamster back for re-homing.</p>
+						</div>	
+					</div>				
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
 </html>

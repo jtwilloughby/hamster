@@ -8,7 +8,11 @@ Getting started with Raspi is all over the Internet, but you might start [here](
 
 To analyze the data we used *scp* to copy the data over wifi to our computers where we could analyze it with *pandas* and *jupyter*
 
+![Reed Switch](./assets/switch.jpeg)
+
 The code to display data on the Magic Mirror is [here](https://github.com/jtwilloughby/jtwilloughby.github.io/blob/master/assets/write_for_mirror.py) and uses [this](https://github.com/timdows/MMM-JsonGraph) module
+
+![Neodymium Magnet](./assets/magnet.jpeg)
 
 Consider shopping at [Adafruit](https://www.adafruit.com/product/3400)
 

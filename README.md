@@ -2,7 +2,9 @@
 
 Our logging code is [here](https://github.com/jtwilloughby/jtwilloughby.github.io/blob/master/assets/wheel.py)
 
-Getting started with Raspi is all over the Internet, but you might start [here](https://www.jeffgeerling.com/blog/2017/raspberry-pi-zero-w-headless-time-lapse-camera")
+Getting started with Raspi is all over the Internet, but you might start [here](https://www.jeffgeerling.com/blog/2017/raspberry-pi-zero-w-headless-time-lapse-camera)
+
+![Raspberry Pi Zero W](./assets/raspi.jpeg)
 
 To analyze the data we used *scp* to copy the data over wifi to our computers where we could analyze it with *pandas* and *jupyter*
 
